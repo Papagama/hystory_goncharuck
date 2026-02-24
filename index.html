@@ -3,90 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Уроки истории и обществознания | Профессиональный репетитор</title>
-    <link rel="stylesheet" href="styles.css"
-    >
+    <title>История | Профессиональный репетитор</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="header-content">
-                <div class="logo">ИСТОРИЯ</div>
-                <div class="header-controls">
-                    <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
-                        <span class="theme-icon sun">☀</span>
-                        <span class="theme-icon moon">☾</span>
-                    </button>
-                    <button class="burger-menu" id="burgerMenu" aria-label="Меню">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-                <nav class="nav" id="nav">
-                    <a href="#hero">Главная</a>
-                    <a href="#advantages">Преимущества</a>
-                    <a href="#about">О преподавателе</a>
-                    <a href="#courses">Курсы</a>
-                    <a href="#gallery">Галерея</a>
-                    <a href="#materials">Материалы</a>
-                    <a href="#reviews">Отзывы</a>
-                    <a href="#contact">Контакты</a>
-                </nav>
-            </div>
+            <div class="logo">История</div>
+            <nav class="nav">
+                <a href="#hero">Главная</a>
+                <a href="#about">О преподавателе</a>
+                <a href="#courses">Курсы</a>
+                <a href="#gallery">Примеры работ</a>
+                <a href="#contact">Контакты</a>
+            </nav>
         </div>
     </header>
 
     <main>
         <section id="hero" class="hero">
             <div class="container">
-                <div class="hero-layout">
-                    <div class="hero-content">
-                        <h1>Открой увлекательный мир истории и обществознания</h1>
-                        <p class="hero-subtitle">Индивидуальные занятия с профессиональным педагогом. Подготовка к экзаменам и поступлению в ВУЗ мечты.</p>
-                        <div class="hero-features">
-                            <div class="feature-badge">
-                                <span class="badge-icon">✓</span>
-                                <span>5 лет стажа</span>
-                            </div>
-                            <div class="feature-badge">
-                                <span class="badge-icon">✓</span>
-                                <span>Аспирант исторического факультета</span>
-                            </div>
-                            <div class="feature-badge">
-                                <span class="badge-icon">✓</span>
-                                <span>Профильное образование</span>
-                            </div>
-                        </div>
-                        <div class="hero-actions">
-                            <a href="#contact" class="btn">Записаться на урок</a>
-                            <div class="quick-contact">
-                                <span>Быстрая связь:</span>
-                                <a href="https://t.me/cranenhergfly" class="contact-link">Telegram @cranenhergfly</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hero-image">
-                        <div class="image-placeholder">
-                            <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" style="stop-color:#C10801;stop-opacity:1" />
-                                        <stop offset="100%" style="stop-color:#FF6001;stop-opacity:1" />
-                                    </linearGradient>
-                                </defs>
-                                <rect width="400" height="500" fill="url(#grad1)" opacity="0.2"/>
-                                <text x="50%" y="50%" text-anchor="middle" fill="#F9F9F9" font-size="24" opacity="0.5">Ваше фото</text>
-                            </svg>
-                        </div>
-                    </div>
+                <div class="hero-number">01</div>
+                <h1>Открой увлекательный мир<br>истории и обществознания</h1>
+                <p class="hero-subtitle">Индивидуальные занятия с профессиональным педагогом.<br>Подготовка к экзаменам и поступлению в ВУЗ мечты.</p>
+                <div class="hero-badges">
+                    <div class="badge">5 лет стажа</div>
+                    <div class="badge">Аспирант исторического факультета</div>
+                    <div class="badge">Профильное образование</div>
                 </div>
+                <a href="#contact" class="btn">Записаться на урок</a>
             </div>
         </section>
 
-        <section id="advantages" class="advantages" data-section="01">
+        <section id="advantages" class="advantages">
             <div class="container">
-                <div class="grid-4">
+                <div class="section-number">02</div>
+                <h2 class="section-title">Преимущества</h2>
+                <div class="cards-grid">
                     <div class="card">
                         <div class="card-number">01</div>
                         <h3>5 лет стажа</h3>
@@ -111,10 +64,11 @@
             </div>
         </section>
 
-        <section id="about" class="about" data-section="02">
+        <section id="about" class="about">
             <div class="container">
+                <div class="section-number">03</div>
                 <h2 class="section-title">О преподавателе</h2>
-                <div class="about-content">
+                <div class="about-grid">
                     <div class="about-block">
                         <h3>Образование</h3>
                         <p>Обучение на бюджетной основе:</p>
@@ -137,10 +91,11 @@
             </div>
         </section>
 
-        <section id="courses" class="courses" data-section="03">
+        <section id="courses" class="courses">
             <div class="container">
+                <div class="section-number">04</div>
                 <h2 class="section-title">Курсы и уроки</h2>
-                <div class="grid-3">
+                <div class="cards-grid">
                     <div class="card">
                         <h3>История</h3>
                         <p>Комплексное изучение исторических процессов, подготовка к ЕГЭ и ОГЭ</p>
@@ -153,125 +108,70 @@
                         <h3>Интерактивные занятия</h3>
                         <p>Интересные уроки с вовлечением ученика в процесс обучения</p>
                     </div>
-                </div>
-                <div class="grid-2">
                     <div class="card">
                         <h3>Индивидуальная программа</h3>
                         <p>Программа обучения адаптируется под уровень знаний и цели каждого ученика</p>
                     </div>
-                    <div class="card">
-                        <h3>Подготовка к поступлению</h3>
-                        <p>Целенаправленная подготовка к экзаменам и поступлению в ВУЗ мечты</p>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="gallery" class="gallery" data-section="04">
+        <section id="gallery" class="gallery">
             <div class="container">
-                <h2 class="section-title">Галерея работ</h2>
-                <p class="gallery-subtitle">Примеры проектов, материалов и достижений учеников</p>
-                
-                <div class="gallery-scroll">
-                    <div class="gallery-track">
-                        <div class="gallery-card gallery-card-small">
-                            <div class="gallery-image">
-                                <svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" style="stop-color:#C10801;stop-opacity:0.8" />
-                                            <stop offset="100%" style="stop-color:#FF6001;stop-opacity:0.6" />
-                                        </linearGradient>
-                                    </defs>
-                                    <rect width="300" height="400" fill="url(#grad1)"/>
-                                </svg>
-                            </div>
-                            <div class="gallery-overlay">
-                                <h3>Конспекты</h3>
-                                <p>Структурированные материалы</p>
-                            </div>
+                <div class="section-number">05</div>
+                <h2 class="section-title">Примеры работ и материалов</h2>
+                <p class="gallery-subtitle">Конспекты, презентации и учебные материалы</p>
+                <div class="gallery-grid-vertical">
+                    <div class="gallery-card-vertical">
+                        <div class="gallery-preview">
+                            <img src="photo_2026-02-24_11-40-46.jpg" alt="Фото материалов">
                         </div>
-
-                        <div class="gallery-card gallery-card-large">
-                            <div class="gallery-image">
-                                <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" style="stop-color:#8B0000;stop-opacity:0.9" />
-                                            <stop offset="100%" style="stop-color:#E85002;stop-opacity:0.7" />
-                                        </linearGradient>
-                                    </defs>
-                                    <rect width="400" height="500" fill="url(#grad2)"/>
-                                </svg>
-                            </div>
-                            <div class="gallery-overlay">
-                                <h3>Исследовательские проекты</h3>
-                                <p>Работы учеников по истории</p>
-                            </div>
+                        <div class="gallery-card-info">
+                            <h3>Учебные материалы</h3>
+                            <p>Примеры работ и конспектов по истории</p>
                         </div>
-
-                        <div class="gallery-card gallery-card-medium">
-                            <div class="gallery-image">
-                                <svg viewBox="0 0 350 450" xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" style="stop-color:#D4C5B0;stop-opacity:0.4" />
-                                            <stop offset="100%" style="stop-color:#C10801;stop-opacity:0.8" />
-                                        </linearGradient>
-                                    </defs>
-                                    <rect width="350" height="450" fill="url(#grad3)"/>
-                                </svg>
-                            </div>
-                            <div class="gallery-overlay">
-                                <h3>Презентации</h3>
-                                <p>Визуальные материалы к урокам</p>
-                            </div>
+                    </div>
+                    
+                    <div class="gallery-card-vertical">
+                        <div class="gallery-preview">
+                            <img src="presentation-preview.jpg" alt="Презентация Первая мировая война">
                         </div>
-
-                        <div class="gallery-card gallery-card-large">
-                            <div class="gallery-image">
-                                <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" style="stop-color:#FF6001;stop-opacity:0.7" />
-                                            <stop offset="100%" style="stop-color:#646464;stop-opacity:0.9" />
-                                        </linearGradient>
-                                    </defs>
-                                    <rect width="400" height="500" fill="url(#grad4)"/>
-                                </svg>
-                            </div>
-                            <div class="gallery-overlay">
-                                <h3>Результаты ЕГЭ</h3>
-                                <p>Достижения и успехи учеников</p>
-                            </div>
+                        <div class="gallery-card-info">
+                            <h3>Презентация к уроку</h3>
+                            <p>Первая мировая война 1914-1918. Подробная презентация с визуальными материалами</p>
+                            <a href="presentation.pdf" download class="download-btn">Скачать презентацию</a>
                         </div>
-
-                        <div class="gallery-card gallery-card-small">
-                            <div class="gallery-image">
-                                <svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
-                                    <defs>
-                                        <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" style="stop-color:#A7A7A7;stop-opacity:0.5" />
-                                            <stop offset="100%" style="stop-color:#E85002;stop-opacity:0.8" />
-                                        </linearGradient>
-                                    </defs>
-                                    <rect width="300" height="400" fill="url(#grad5)"/>
-                                </svg>
-                            </div>
-                            <div class="gallery-overlay">
-                                <h3>Учебные пособия</h3>
-                                <p>Авторские материалы</p>
-                            </div>
+                    </div>
+                    
+                    <div class="gallery-card-vertical">
+                        <div class="gallery-preview">
+                            <img src="conspect-preview.jpg" alt="Конспект Первая мировая война">
+                        </div>
+                        <div class="gallery-card-info">
+                            <h3>Конспект урока</h3>
+                            <p>Первая мировая война 1914-1918</p>
+                            <a href="conspect.pdf" download class="download-btn">Скачать конспект</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="materials" class="materials" data-section="05">
+        <section id="materials" class="materials">
             <div class="container">
-                <div class="materials-card">
-                    <h2>Учебные материалы</h2>
+                <div class="section-number">06</div>
+                <h2 class="section-title">Учебные материалы</h2>
+                <div class="materials-content">
+                    <p class="materials-intro">Материалы, которые помогают легко и интересно усваивать информацию</p>
+                    
+                    <div class="lesson-plan-preview">
+                        <h3>Пример интерактивного урока</h3>
+                        <p class="lesson-subtitle">План урока по теме «Опричнина» для подготовки к ЕГЭ</p>
+                        <a href="lesson-plan.html" target="_blank" class="lesson-link">
+                            <img src="lesson-plan-preview.png" alt="План урока по истории" class="lesson-image">
+                        </a>
+                    </div>
+                    
                     <div class="materials-grid">
                         <div class="material-item">
                             <h4>Бесплатные конспекты</h4>
@@ -286,15 +186,15 @@
                             <p>Удобные материалы для повторения и запоминания</p>
                         </div>
                     </div>
-                    <p class="materials-note">Материалы, которые помогают легко и интересно усваивать информацию</p>
                 </div>
             </div>
         </section>
 
-        <section id="reviews" class="reviews" data-section="06">
+        <section id="reviews" class="reviews">
             <div class="container">
+                <div class="section-number">07</div>
                 <h2 class="section-title">Отзывы</h2>
-                <div class="grid-3">
+                <div class="reviews-grid">
                     <div class="review-card">
                         <p class="review-text">«Истории успеха учеников — здесь будут реальные отзывы о достижениях и результатах»</p>
                         <div class="review-author">Ученик</div>
@@ -311,245 +211,257 @@
             </div>
         </section>
 
-        <section id="contact" class="contact" data-section="07">
+        <section id="contact" class="contact">
             <div class="container">
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h2>Контакты</h2>
-                        <div class="contact-item">
-                            <div class="contact-label">Телефон</div>
-                            <a href="tel:+79114896228" class="contact-value">+7 911 489-62-28</a>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-label">Telegram</div>
-                            <a href="https://t.me/cranenhergfly" class="contact-value">@cranenhergfly</a>
-                        </div>
-                    </div>
-                    <div class="cta-card">
-                        <h3>Записывайся ко мне на урок!</h3>
-                        <p>Открывай увлекательный мир истории и обществознания! Гарантирую интересные занятия и результативную подготовку к экзаменам и ВУЗам мечты.</p>
-                        <a href="https://t.me/cranenhergfly" class="btn">Записаться на пробный урок</a>
-                    </div>
+                <div class="section-number">08</div>
+                <h2>Записывайся ко мне<br>на урок!</h2>
+                <p class="contact-text">Открывай увлекательный мир истории и обществознания! Гарантирую интересные занятия и результативную подготовку к экзаменам.</p>
+                <div class="contact-info">
+                    <a href="tel:+79114896228" class="contact-link">+7 911 489-62-28</a>
+                    <a href="https://t.me/cranenhergfly" class="contact-link">@cranenhergfly</a>
                 </div>
+                <a href="https://t.me/cranenhergfly" class="btn">Записаться на пробный урок</a>
             </div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3 class="footer-logo">ИСТОРИЯ</h3>
-                    <p class="footer-description">Профессиональные уроки истории и обществознания. Индивидуальный подход и эффективная подготовка к экзаменам.</p>
-                </div>
-
-                <div class="footer-column">
-                    <h4>Навигация</h4>
-                    <ul class="footer-links">
-                        <li><a href="#hero">Главная</a></li>
-                        <li><a href="#advantages">Преимущества</a></li>
-                        <li><a href="#about">О преподавателе</a></li>
-                        <li><a href="#courses">Курсы</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h4>Разделы</h4>
-                    <ul class="footer-links">
-                        <li><a href="#gallery">Галерея</a></li>
-                        <li><a href="#materials">Материалы</a></li>
-                        <li><a href="#reviews">Отзывы</a></li>
-                        <li><a href="#contact">Контакты</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h4>Контакты</h4>
-                    <ul class="footer-contacts">
-                        <li>
-                            <span>Телефон:</span>
-                            <a href="tel:+79114896228">+7 911 489-62-28</a>
-                        </li>
-                        <li>
-                            <span>Telegram:</span>
-                            <a href="https://t.me/cranenhergfly">@cranenhergfly</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 Уроки истории и обществознания. Все права защищены.</p>
-            </div>
+            <p>&copy; 2026 История. Все права защищены.</p>
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script>
-        const burgerMenu = document.getElementById('burgerMenu');
-        const nav = document.getElementById('nav');
-        const themeToggle = document.getElementById('themeToggle');
+        gsap.registerPlugin(ScrollTrigger);
 
-        // Переключение темы
-        const currentTheme = localStorage.getItem('theme') || 'dark';
-        if (currentTheme === 'light') {
-            document.body.classList.add('light-theme');
-        }
-
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('light-theme');
-            const theme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
-            localStorage.setItem('theme', theme);
-        });
-
-        burgerMenu.addEventListener('click', () => {
-            burgerMenu.classList.toggle('active');
-            nav.classList.toggle('active');
-            document.body.classList.toggle('menu-open');
-        });
-
-        // Закрытие меню при клике на ссылку
-        const navLinks = nav.querySelectorAll('a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                burgerMenu.classList.remove('active');
-                nav.classList.remove('active');
-                document.body.classList.remove('menu-open');
-            });
-        });
-
-        // Закрытие меню при клике вне его
-        document.addEventListener('click', (e) => {
-            if (!nav.contains(e.target) && !burgerMenu.contains(e.target)) {
-                burgerMenu.classList.remove('active');
-                nav.classList.remove('active');
-                document.body.classList.remove('menu-open');
-            }
-        });
-
-        // Плавная прокрутка для всех якорных ссылок
+        // Плавная прокрутка
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href');
-                
                 if (targetId === '#') return;
-                
                 const targetElement = document.querySelector(targetId);
-                
                 if (targetElement) {
-                    const headerOffset = 80;
-                    const elementPosition = targetElement.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-                    window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth'
-                    });
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
                 }
             });
         });
 
-        // Анимация появления блоков при скролле
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+        // Анимация hero секции
+        gsap.from('.hero-number', {
+            opacity: 0,
+            scale: 0.5,
+            duration: 1,
+            ease: 'power3.out'
+        });
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-                }
-            });
-        }, observerOptions);
+        gsap.from('.hero h1', {
+            opacity: 0,
+            y: 50,
+            duration: 1,
+            delay: 0.3,
+            ease: 'power3.out'
+        });
 
-        // Наблюдаем за всеми элементами с классами анимации
-        document.addEventListener('DOMContentLoaded', () => {
-            // Карточки преимуществ
-            const advantageCards = document.querySelectorAll('#advantages .card');
-            advantageCards.forEach((card, index) => {
-                if (index % 2 === 0) {
-                    card.classList.add('slide-left');
-                } else {
-                    card.classList.add('slide-right');
-                }
-                observer.observe(card);
-            });
+        gsap.from('.hero-subtitle', {
+            opacity: 0,
+            y: 30,
+            duration: 1,
+            delay: 0.5,
+            ease: 'power3.out'
+        });
 
-            // Блоки "О преподавателе"
-            const aboutBlocks = document.querySelectorAll('#about .about-block');
-            aboutBlocks.forEach((block, index) => {
-                if (index === 0) {
-                    block.classList.add('slide-left');
-                } else {
-                    block.classList.add('slide-right');
-                }
-                observer.observe(block);
-            });
+        gsap.from('.hero-badges .badge', {
+            opacity: 0,
+            y: 20,
+            duration: 0.8,
+            stagger: 0.1,
+            delay: 0.7,
+            ease: 'power3.out'
+        });
 
-            // Карточки курсов
-            const courseCards = document.querySelectorAll('#courses .card');
-            courseCards.forEach((card, index) => {
-                if (index % 2 === 0) {
-                    card.classList.add('slide-left');
-                } else {
-                    card.classList.add('slide-right');
-                }
-                observer.observe(card);
-            });
+        gsap.from('.hero .btn', {
+            opacity: 0,
+            scale: 0.8,
+            duration: 0.8,
+            delay: 1,
+            ease: 'back.out(1.7)'
+        });
 
-            // Галерея
-            const galleryCards = document.querySelectorAll('.gallery-card');
-            galleryCards.forEach((card, index) => {
-                if (index % 2 === 0) {
-                    card.classList.add('slide-left');
-                } else {
-                    card.classList.add('slide-right');
-                }
-                observer.observe(card);
-            });
-
-            // Отзывы
-            const reviewCards = document.querySelectorAll('.review-card');
-            reviewCards.forEach((card, index) => {
-                if (index % 2 === 0) {
-                    card.classList.add('slide-left');
-                } else {
-                    card.classList.add('slide-right');
-                }
-                observer.observe(card);
-            });
-
-            // Блоки контактов
-            const contactBlocks = document.querySelectorAll('.contact-grid > *');
-            contactBlocks.forEach((block, index) => {
-                if (index === 0) {
-                    block.classList.add('slide-left');
-                } else {
-                    block.classList.add('slide-right');
-                }
-                observer.observe(block);
-            });
-
-            // Заголовки секций
-            const sectionTitles = document.querySelectorAll('.section-title');
-            sectionTitles.forEach(title => {
-                title.classList.add('fade-in');
-                observer.observe(title);
+        // Анимация номеров секций
+        gsap.utils.toArray('.section-number').forEach(number => {
+            gsap.from(number, {
+                scrollTrigger: {
+                    trigger: number,
+                    start: 'top 80%',
+                    toggleActions: 'play none none reverse'
+                },
+                opacity: 0,
+                scale: 0.5,
+                duration: 1,
+                ease: 'power3.out'
             });
         });
 
-        // Плавная прокрутка с эффектом easing
-        let isScrolling = false;
-        
-        window.addEventListener('wheel', (e) => {
-            if (isScrolling) return;
-            
-            isScrolling = true;
-            setTimeout(() => {
-                isScrolling = false;
-            }, 50);
-        }, { passive: true });
+        // Анимация заголовков секций
+        gsap.utils.toArray('.section-title').forEach(title => {
+            gsap.from(title, {
+                scrollTrigger: {
+                    trigger: title,
+                    start: 'top 80%',
+                    toggleActions: 'play none none reverse'
+                },
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                ease: 'power3.out'
+            });
+        });
+
+        // Анимация карточек
+        gsap.utils.toArray('.card').forEach((card, index) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 85%',
+                    toggleActions: 'play none none reverse'
+                },
+                opacity: 0,
+                y: 50,
+                duration: 0.8,
+                delay: index * 0.1,
+                ease: 'power3.out'
+            });
+        });
+
+        // Анимация блоков "О преподавателе"
+        gsap.utils.toArray('.about-block').forEach((block, index) => {
+            gsap.from(block, {
+                scrollTrigger: {
+                    trigger: block,
+                    start: 'top 85%',
+                    toggleActions: 'play none none reverse'
+                },
+                opacity: 0,
+                x: index === 0 ? -50 : 50,
+                duration: 1,
+                ease: 'power3.out'
+            });
+        });
+
+        // Анимация галереи
+        gsap.utils.toArray('.gallery-card-vertical').forEach((card, index) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 85%',
+                    toggleActions: 'play none none reverse'
+                },
+                opacity: 0,
+                y: 80,
+                duration: 1,
+                delay: index * 0.2,
+                ease: 'power3.out'
+            });
+        });
+
+        // Анимация превью урока
+        gsap.from('.lesson-plan-preview', {
+            scrollTrigger: {
+                trigger: '.lesson-plan-preview',
+                start: 'top 85%',
+                toggleActions: 'play none none reverse'
+            },
+            opacity: 0,
+            scale: 0.9,
+            duration: 1,
+            ease: 'power3.out'
+        });
+
+        // Анимация отзывов
+        gsap.utils.toArray('.review-card').forEach((card, index) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 85%',
+                    toggleActions: 'play none none reverse'
+                },
+                opacity: 0,
+                y: 50,
+                duration: 0.8,
+                delay: index * 0.15,
+                ease: 'power3.out'
+            });
+        });
+
+        // Анимация контактов
+        gsap.from('.contact h2', {
+            scrollTrigger: {
+                trigger: '.contact h2',
+                start: 'top 80%',
+                toggleActions: 'play none none reverse'
+            },
+            opacity: 0,
+            y: 50,
+            duration: 1,
+            ease: 'power3.out'
+        });
+
+        gsap.from('.contact-text', {
+            scrollTrigger: {
+                trigger: '.contact-text',
+                start: 'top 80%',
+                toggleActions: 'play none none reverse'
+            },
+            opacity: 0,
+            y: 30,
+            duration: 1,
+            delay: 0.2,
+            ease: 'power3.out'
+        });
+
+        gsap.from('.contact-info .contact-link', {
+            scrollTrigger: {
+                trigger: '.contact-info',
+                start: 'top 80%',
+                toggleActions: 'play none none reverse'
+            },
+            opacity: 0,
+            y: 20,
+            stagger: 0.1,
+            duration: 0.8,
+            delay: 0.4,
+            ease: 'power3.out'
+        });
+
+        gsap.from('.contact .btn', {
+            scrollTrigger: {
+                trigger: '.contact .btn',
+                start: 'top 80%',
+                toggleActions: 'play none none reverse'
+            },
+            opacity: 0,
+            scale: 0.8,
+            duration: 0.8,
+            delay: 0.6,
+            ease: 'back.out(1.7)'
+        });
+
+        // Параллакс эффект для номеров секций
+        gsap.utils.toArray('.section-number').forEach(number => {
+            gsap.to(number, {
+                scrollTrigger: {
+                    trigger: number,
+                    start: 'top bottom',
+                    end: 'bottom top',
+                    scrub: 1
+                },
+                y: -50,
+                ease: 'none'
+            });
+        });
     </script>
 </body>
 </html>
